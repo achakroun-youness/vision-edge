@@ -1,9 +1,27 @@
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-env/
-venv/
-.env
+*.pyo
+*.pyd
+*.pyc
+
+# PyInstaller build artifacts
 build/
 dist/
 *.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
